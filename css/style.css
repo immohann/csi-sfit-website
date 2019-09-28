@@ -33,6 +33,8 @@ body{
 	background-repeat: no-repeat;
 	font-size: 13px;
 	font-family: 'Montserrat', sans-serif;
+	padding: 0px;
+	margin: 0px;
 	
 	
 }
@@ -53,7 +55,7 @@ body{
 .navbar{
 	padding-top: 27px;
 	padding-right: 0px;
-	background-color:o;
+	
 
 	
 }
@@ -201,7 +203,7 @@ button{
 	padding-top: 50px;
 	color: aliceblue;
 	align-content: center;
-	text-align: center;
+	
 	
 }
 
@@ -627,11 +629,289 @@ figure.snip1104.hover:before {
 
 
 
-
-
-
-
 /*css for hover ends here */
+
+
+
+
+/*media query starts here*/
+@media (min-width: 320px) and (max-width: 480px) {
+	
+#csi-sfit{display: none;}
+
+.navbar ul a{
+	
+	
+	text-decoration: none;
+	color:black;
+
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+	
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 15px;
+	
+	
+	
+		
+}	
+	
+	.mainlogo{
+		height: 150%;
+		width: 70%;
+		margin-bottom: 50px;
+	}
+
+.navbar{
+	display:inline-block;
+}
+
+
+.livet{
+		margin-top: 60px;
+	}
+	
+	
+.navbar ul{
+	
+	
+	width: 360px;
+	
+
+		
+}	
+
+.row1{height: 440px;
+	width: 100%;
+}
+.row2{
+	
+	height:700px;
+	width: 360px;
+	margin-top: 100px;
+	background-color:white;
+	text-align: center;
+	
+	color: orangered;
+	font-size: 10px;
+	
+
+}	
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns:  100%  ;
+
+
+}	
+.grid-item {
+	height: 250px;
+  text-align: center;
+	
+}	
+	
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+
+ 
+}
+
+
+
+button{
+	background-color: rgba(44,62,80,0.38);
+	
+	border: none;
+	
+	width: 80px;
+	height: 100px;
+	font-size: 8px;
+	padding: 0px 3px;
+	
+}
+	
+.row3{
+	height:45em;
+	margin-top: 0px;
+	text-align: center;
+	padding-top: 10px;
+	color: aliceblue;
+}
+
+	
+.grid-container2 {
+  
+  grid-template-columns: 30% 30% 30%;
+
+  margin: 50px 0px;
+}
+	
+.row3 h3{
+		margin-left: 15%;
+	margin-top: 10%;
+	}	
+
+.row4{
+display: none	
+}
+
+
+
+form{
+	
+	padding: 0px 0px;
+	padding-top: 20px;
+}
+.feedback h3{
+	margin-left: 0px;
+	padding: 0px;
+}
+
+textarea{
+	width: 110%;
+	height: 80px;
+}
+
+.mb-5 label{
+	padding-top: 16px;
+}
+
+.mb3 label{
+	margin-left: 0px;
+}
+ .btn{
+	 
+	 margin-top: 20px;
+	 margin-left: 30%;
+	
+	text-decoration: none;
+	color:black;
+
+	padding-bottom: 8px;
+	padding-top: 8px;
+	text-align: center;
+	font-size: 16px;
+	 border: solid 1px black;
+	 
+	 padding: 10px 30px;
+	 
+	
+}
+
+.row5{
+	
+	height: 175px;
+	width: 352px;
+	margin-left: 5px;
+	background-color:white;	
+	padding-top: 20px;
+	text-align: center;
+	
+	
+ 
+	
+}
+
+.row5 a{
+	text-decoration: none;
+	color: #3C3C3C;
+}
+
+.row5 a:hover{
+	text-decoration: none;
+	color: orangered;
+}
+
+.row5 i{
+	
+	font-size: 25px;
+	margin: 10px 7px;
+	
+}
+
+.row5 h6{
+	margin-top: 10px;
+}
+
+form{
+	margin: 30px 30px;
+	margin-right: 0;
+}
+
+
+.zip{
+	width: 50%;
+}
+
+.state{
+	width: 60%;
+}
+
+.feed h3{
+	margin-left: 35%;
+}
+
+.feed .btn{
+	background-color: transparent;
+border:solid 2px  orangered;
+	color: black;
+}
+.feed .btn:hover{
+	
+	border:solid 2px  orangered;
+	color: aliceblue;
+	 transition: all .5s ease-out;
+	
+
+}
+
+.f1:hover a{
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+	font-weight:600;
+	transition: all .6s ease;
+	background-color: white;
+}
+
+h3{
+	font-family: 'Big Shoulders Display', cursive;
+	letter-spacing: 5px;
+	
+}
+
+
+	
+	
+	
+	
+	
+	
+}
+
+
+
+/*media query ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
